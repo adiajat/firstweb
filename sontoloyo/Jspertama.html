@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lat. javascript</title>
+</head>
+<body>
+    <h1 id="judul">javascript pertamaku</h1>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Tekan untuk menampilkan tanggal</button>
+    <p id="demo" style="font-family: Arial, Helvetica, sans-serif; font-size: large; font-weight: bold; color: brown;"></p>
+    <button type="button" onclick="document.getElementById('judul').innerHTML = 'Hallo javascript'">Klik</button>
+    <img id="foto" src="../pas-poto-merah.jpg" alt="fotoku" style="width: 150px; border: rgb(92, 126, 92); border-width: 3px; border-style: solid;">
+    <button type="button" onclick="document.getElementById('foto').style.width = '200px'">Besarkan foto</button>
+    <button type="button" onclick="document.getElementById('foto').style.width = '90px'">Kecilkan foto</button>
+    <button type="button" onclick="document.getElementById('foto').src='foto-bw.webp'">foto hitam putih</button>
+    <button type="button" onclick="document.getElementById('foto').src='foto.webp'">foto warna</button>
+    <button type="button" onclick="document.getElementById('foto').style.visibility = 'hidden'">Sembunyikan</button>
+    <button type="button" onclick="document.getElementById('foto').style.display = 'none'">Hilangkan</button>
+    <button type="button" onclick="myFuction()">Tampilkan</button>
+    <button type="button" onclick="window.print()">cetak</button>
+    <script>
+        function myFuction() {
+            document.getElementById('foto').style.display = 'inline';
+            document.getElementById('foto').style.visibility = 'visible';
+            document.getElementById('foto').style.borderRadius = '10px'
+        }
+    </script>
+
+</body>
+</html>

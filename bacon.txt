@@ -1,0 +1,16 @@
+akumerindukanmu
+teringatkau 
+ Volume in drive C has no label.
+ Volume Serial Number is 9C98-C335
+
+ Directory of C:\Users\Adiajat\Desktop\web-dev
+
+29/10/2021  21:16    <DIR>          .
+29/10/2021  21:16    <DIR>          ..
+29/10/2021  21:19                31 bacon.txt
+29/10/2021  07:31            21.276 foto.webp
+28/10/2021  19:25    <DIR>          sesi2
+29/10/2021  12:50             2.073 ujiPraktek1.css
+29/10/2021  12:50             1.898 UjiPraktek1.html
+               4 File(s)         25.278 bytes
+               3 Dir(s)  36.561.092.608 bytes free

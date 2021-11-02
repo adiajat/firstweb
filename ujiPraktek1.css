@@ -1,0 +1,101 @@
+.menu{
+    background: none;
+    text-align: right;
+    word-spacing: 20px;
+    height: 30px;
+    border: ;
+    padding: 5px;
+    padding-right: 20px;
+}
+.menu a{
+    color: green;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.wraper{
+    background: lightgray;
+    padding: 20px;
+    height: 720px;
+}
+.profil {
+    background-image: linear-gradient(rgb(164, 252, 197),whitesmoke);
+    padding: 20px;
+    height: 150px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border: white; 
+    border-style: solid;
+    border-radius: 10px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 15px;
+}
+.namaprofil{
+    width: 250px;
+    float: left;
+    border-right: yellowgreen;
+    border-style: solid;
+    border-top: unset;
+    border-bottom: unset;
+    border-left: unset;
+
+}
+.status{
+    width: 130px;
+    float: left;
+    padding-left: 20px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p, .form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.kontak {
+    background-color: rgba(0, 0, 241, 0.63);
+    color: white;
+    border-radius: 8px;
+    padding: 7px;
+    padding-left: 17px;
+    padding-right: 17px;
+    box-shadow: 0 4px 6px 0 gray;
+}
+.resume, {
+    background-color: white;
+    color: green;
+    border: solid;
+    border-radius: 8px;
+    padding: 7px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-left: 10px;
+    box-shadow: 0 4px 6px 0 gray;
+
+}
+.status, .isistatus {
+    line-height: 12px;
+}
+.form {
+    margin-top: 30px;
+    padding-right: px ;
+    background-image: linear-gradient(rgb(164, 252, 197),whitesmoke);
+
+}
+input {
+    width: 98.5%;
+    padding: 7px;
+    border-radius: 4px;
+    margin-bottom: 7px;
+}
+input[type=submit] {
+    background-color: rgb(0, 100, 33);
+    width: 100%;
+    color: white;
+    box-shadow: 0 4px 6px 0 gray;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 105%;
+}
