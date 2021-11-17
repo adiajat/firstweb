@@ -20,11 +20,12 @@
     <button type="button" onclick="document.getElementById('foto').style.display = 'none'">Hilangkan</button>
     <button type="button" onclick="myFuction()">Tampilkan</button>
     <button type="button" onclick="window.print()">cetak</button>
+    <p id="tebe"></p>
+    <button type="button" onclick="document.getElementById('foto').src='foto.webp'">foto warnakopi</button>
     <script>
-        function myFuction() {
-            document.getElementById('foto').style.display = 'inline';
-            document.getElementById('foto').style.visibility = 'visible';
-            document.getElementById('foto').style.borderRadius = '10px'
+        function tampilkan_nama(){
+            return "Belajar di Hacktiv8 nih ya";
+            document.getElementById('tebe').innerHTML = tampilkan_nama();
         }
     </script>
 
